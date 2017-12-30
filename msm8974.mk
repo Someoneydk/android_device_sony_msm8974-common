@@ -20,6 +20,13 @@ COMMON_PATH := device/sony/msm8974-common
 # inherit hidl hals
 $(call inherit-product, device/sony/msm8974-common/hidl.mk)
 
+<<<<<<< HEAD
+=======
+# Permissions
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/rootdir/system/vendor/etc/permissions/permissions_sony.xml:system/vendor/etc/permissions/permissions_sony.xml
+
+>>>>>>> fca8499... sony-8974: camera: Fix permission manifest path.
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
