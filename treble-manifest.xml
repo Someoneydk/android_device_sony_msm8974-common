@@ -1,10 +1,5 @@
 <manifest version="1.0" type="device">
     <hal format="hidl">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e460e9... sony-8974: Explicitly define treble services.
         <name>android.hardware.audio</name>
         <transport arch="32">passthrough</transport>
         <version>2.0</version>
@@ -41,10 +36,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 106adb7... sony-8974: Add configstore to treble manifest.
         <name>android.hardware.configstore</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -54,11 +45,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-<<<<<<< HEAD
-=======
->>>>>>> 6e460e9... sony-8974: Explicitly define treble services.
-=======
->>>>>>> 106adb7... sony-8974: Add configstore to treble manifest.
         <name>android.hardware.gnss</name>
         <transport arch="32">passthrough</transport>
         <version>1.0</version>
@@ -141,7 +127,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-<<<<<<< HEAD
         <name>android.hardware.radio</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -160,8 +145,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-=======
->>>>>>> 6e460e9... sony-8974: Explicitly define treble services.
         <name>android.hardware.renderscript</name>
         <transport arch="32">passthrough</transport>
         <version>1.0</version>
@@ -207,10 +190,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-<<<<<<< HEAD
->>>>>>> 0a32fd6... sony-8974: Add treble radio definitions.
-=======
->>>>>>> 6e460e9... sony-8974: Explicitly define treble services.
         <name>android.hardware.wifi</name>
         <transport>hwbinder</transport>
         <version>1.0</version>

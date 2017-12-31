@@ -59,12 +59,9 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
 	android.hardware.nfc@1.0-impl \
 	android.hardware.nfc@1.0-service
-=======
 	android.hardware.nfc@1.0-impl
->>>>>>> 6e460e9... sony-8974: Explicitly define treble services.
 	
 # Netd
 PRODUCT_PACKAGES += \
@@ -81,23 +78,15 @@ PRODUCT_PACKAGES += \
 
 # Rendering
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
-<<<<<<< HEAD
 	android.hardware.renderscript@1.0-impl 
-	
-=======
 	android.hardware.renderscript@1.0-impl
 
 #RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.0-impl \
     android.hardware.radio.deprecated@1.0-impl
+    android.hardware.renderscript@1.0-impl
 
->>>>>>> 0a32fd6... sony-8974: Add treble radio definitions.
-=======
-	android.hardware.renderscript@1.0-impl
-
->>>>>>> 6e460e9... sony-8974: Explicitly define treble services.
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
