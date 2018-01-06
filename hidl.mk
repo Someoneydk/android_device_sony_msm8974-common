@@ -34,10 +34,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	android.hardware.broadcastradio@1.0-impl
 
-# GPS
+# GNSS
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     android.hardware.gnss@1.0-impl
  	
+=======
+    android.hardware.gnss@1.0-impl-qti \
+    android.hardware.gnss@1.0-service-qti
+
+>>>>>>> 9e53c40... sony-8974: GPS: Update GPS HAL to sdm845 and loc_api.
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@1.0-impl
