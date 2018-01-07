@@ -1,4 +1,3 @@
-
 allow vold diag_data_file:dir { read open ioctl };
 allow vold tee_prop:file { getattr open read };
 allow vold firmware_file:file { getattr open read };
@@ -11,3 +10,5 @@ allow vold tee_device:sock_file write;
 allow vold iddd_file:file r_file_perms;
 allow vold iddd_file:dir ioctl;
 
+allow vold iddd_file:dir r_dir_perms;
+allow vold iddd_file:file r_file_perms;
